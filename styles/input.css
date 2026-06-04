@@ -1,0 +1,131 @@
+.inputGroup {
+	margin-bottom: 20px;
+}
+
+.buttonContainerCenter {
+	/* Center aligned buttons */
+	width: 100%;
+    justify-content: center;
+   	display: flex;
+}
+
+.buttonContainer {
+    width: 100%;
+    display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+}
+
+.buttonLeft {
+    justify-content: left;
+   	display: flex;
+}
+
+.buttonRight {
+    justify-content: right;
+   	display: flex;
+}
+
+input[type="radio"] {
+	accent-color: rgb(79, 78, 160);
+}
+
+/* Main button style */
+button,
+input[type="submit"] {
+	background-color: rgb(94, 84, 230);
+	border-color: transparent;
+	color: rgb(255, 255, 255);
+	border-width: 2px;
+	border-radius: 7px;
+	width: 90px;
+	border-bottom: 1px;
+	height: 44px;
+}
+
+button.wideButton,
+input[type="submit"].wideButton {
+   max-width: 400px;
+   width: 100%;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+select {
+	background-color: #ebebeb;
+	font-size: 16px;
+	border-style: none;
+	border-bottom: 1px solid black;
+	height: 35px;
+	width: 100%;
+}
+
+textarea {
+  width: 100%;
+  min-height: 35px;
+  background-color: #ebebeb;
+  font-size: 16px;
+  border-style: none;
+  border-bottom: 1px solid black;
+  resize: none;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+/* Input focus effect */
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+	outline: none;
+	border-style: none;
+	background-color: #e7e7e7;
+	box-shadow: 0 3px 0 0 rgb(94, 84, 230);
+}
+
+/* File upload button */
+.fileButton {
+	border: 2px solid rgb(94, 84, 230);
+	padding: 5px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.fileButton:hover {
+	border: 3px solid rgb(63, 51, 231);
+}
+
+.profileButton img {
+	border-radius: 40px;
+	width: 80px;
+	height: 80px;
+}
+
+.searchbar {
+	background-color: white;
+	border-radius: 17px;
+	margin: 10px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+	background-color: rgb(68, 61, 165);
+}
+
+/* Validation messages */
+.error {
+	color: red;
+	margin-top: 2px;
+    display: block;
+}
+
+.error.hidden {
+    display: none;
+}

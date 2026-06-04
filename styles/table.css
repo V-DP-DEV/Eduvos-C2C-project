@@ -1,0 +1,32 @@
+table {
+	/* Table layout */
+	border-collapse: collapse;
+	width: 100%;
+}
+
+tr {
+	background-color: rgb(255, 255, 255);
+}
+
+td,
+th {
+	border: rgb(0, 0, 0);
+	border-width: 2px;
+	border-style: solid;
+	margin: 0px;
+	height: 30px;
+	padding: 8px;
+	text-align: left;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Table headers */
+th {
+	background-color: rgb(79, 78, 160);
+	color: white;
+}
+
+/* Alternate row colors */
+tr:nth-child(even) {
+	background-color: #eeedf5;
+}

@@ -1,0 +1,27 @@
+footer {
+	/* Footer section */
+	background-color: rgb(72, 70, 99);
+	color: rgb(255, 255, 255);
+}
+
+.footerContainer {
+	display: flex;
+	justify-content: space-around;
+	max-width: 900px;
+	margin: 14px auto;
+}
+
+.footerColumn {
+	flex: 1;
+}
+
+.footerColumn ul {
+	/* Vertical list */
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+
+.footerColumn h2 {
+	margin-left: 40px;
+}
